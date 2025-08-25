@@ -1,0 +1,17 @@
+{
+  "backend": {
+    "url": "http://localhost:8080",
+    "timeout": 300000,
+    "retries": 3
+  },
+  "app": {
+    "title": "SampleFarm - 样本管理系统",
+    "description": "专业的恶意样本管理和分析平台",
+    "version": "1.0.0"
+  },
+  "ui": {
+    "theme": "light",
+    "pageSize": 20,
+    "maxFileSize": "100MB"
+  }
+}

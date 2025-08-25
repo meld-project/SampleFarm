@@ -1,0 +1,7 @@
+target*
+.venv
+backend/config.toml
+.DS_Store
+# Python packages (too large for Git)
+cfg/pypackage/*.whl
+*.whl

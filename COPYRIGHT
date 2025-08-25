@@ -1,0 +1,59 @@
+SampleFarm - Professional Malware Analysis Platform
+Copyright (c) 2024 SampleFarm Project
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+
+===
+
+COPYRIGHT NOTICE TEMPLATE
+
+For source code files, please include the following header:
+
+For Rust files (.rs):
+/*
+ * SampleFarm - Professional Malware Analysis Platform
+ * Copyright (c) 2024 SampleFarm Project
+ * 
+ * This work is licensed under CC BY-NC-SA 4.0
+ * https://creativecommons.org/licenses/by-nc-sa/4.0/
+ */
+
+For TypeScript/JavaScript files (.ts, .tsx, .js):
+/*
+ * SampleFarm - Professional Malware Analysis Platform
+ * Copyright (c) 2024 SampleFarm Project
+ * 
+ * This work is licensed under CC BY-NC-SA 4.0
+ * https://creativecommons.org/licenses/by-nc-sa/4.0/
+ */
+
+For Python files (.py):
+"""
+SampleFarm - Professional Malware Analysis Platform
+
+Copyright (c) 2024 SampleFarm Project
+
+This work is licensed under CC BY-NC-SA 4.0
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+"""
+
+For shell scripts and configuration files:
+# SampleFarm - Professional Malware Analysis Platform
+# Copyright (c) 2024 SampleFarm Project
+# 
+# This work is licensed under CC BY-NC-SA 4.0
+# https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+===
+
+ATTRIBUTION REQUIREMENTS
+
+When using or modifying this work, you must:
+
+1. Give appropriate credit to the SampleFarm Project
+2. Provide a link to the CC BY-NC-SA 4.0 license
+3. Indicate if changes were made
+4. Not use the material for commercial purposes
+5. License derivatives under the same license
+
+For more information, see: https://creativecommons.org/licenses/by-nc-sa/4.0/

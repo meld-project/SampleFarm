@@ -1,0 +1,13 @@
+python-multipart
+fastapi
+networkx
+numpy
+pandas
+pydantic
+Requests
+scipy
+tqdm
+uvicorn
+torch
+bert_pytorch
+--extra-index-url https://download.pytorch.org/whl/cu118

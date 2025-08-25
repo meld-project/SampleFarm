@@ -1,0 +1,27 @@
+version: '3'
+
+services:
+  malware-api:
+    build: .
+    container_name: malware-detection-api
+    ports:
+      - "17777:17777"
+    volumes:
+      - ./temp:/app/temp
+      - ./samples:/app/samples
+      - ./test_results:/app/test_results
+    environment:
+      - PYTHONUNBUFFERED=1
+      - NVIDIA_VISIBLE_DEVICES=all
+    restart: unless-stopped
+    runtime: nvidia
+    deploy:
+      resources:
+        limits:
+          cpus: '2'
+          memory: 4G
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]

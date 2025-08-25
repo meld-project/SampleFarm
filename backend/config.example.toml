@@ -1,0 +1,25 @@
+[server]
+host = "0.0.0.0"
+port = 8080
+
+[database]
+url = "postgresql://samplefarm_user:samplefarm_password@localhost/samplefarm"
+max_connections = 20
+
+[minio]
+endpoint = "http://localhost:9000"
+access_key = "minioadmin"
+secret_key = "minioadmin"
+bucket = "samplefarm"
+
+[file]
+max_size = 1073741824  # 1GB in bytes
+temp_dir = "/tmp/samplefarm"
+
+[startup_recovery]
+enabled = true
+initial_delay_secs = 10
+scan_interval_secs = 300
+batch_size = 20
+global_concurrency = 8
+stuck_submitting_threshold_secs = 300
